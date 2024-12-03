@@ -53,12 +53,12 @@ RegisterNumber:24900179
 **RTL realization**
 
 **Output:**
-![output for ex no  02 (de)](https://github.com/user-attachments/assets/367ecf4c-d7b3-48f2-aab2-52953fdb9ac3)
+![output for ex no  02 (de)](https://github.com/user-attachments/assets/367ecf4c-d7b3-48f2-aab2-52953fdb9ac3).
 
 **RTL**
 
 **Timing Diagram**
-![output2 for ex no  02 (de)](https://github.com/user-attachments/assets/d32ba71c-0277-4a8b-ab86-cc5da20fbe4f)
+![output2 for ex no  02 (de)](https://github.com/user-attachments/assets/d32ba71c-0277-4a8b-ab86-cc5da20fbe4f).
 
 **Result:**
 
