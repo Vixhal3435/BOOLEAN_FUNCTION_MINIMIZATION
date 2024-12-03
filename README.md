@@ -35,16 +35,30 @@ Hardware – PCs, Cyclone II , USB flasher
 
 /* Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
 
-Developed by: RegisterNumber:*/
+Developed by: VISHAL.V
+RegisterNumber:24900179
+ module boolean (f_and,f_or,f_nor,f_not,f_nand,f_xor,f_xnor,a,b);
+ input a,b;
+ output f_and,f_or,f_nor,f_not,f_nand,f_xor,f_xnor;
+ and (f_and,a,b);
+ or (f_or,a,b);
+ not (f_not,a);
+ nor (f_nor,a,b);
+ nand (f_nand,a,b);
+ xor (f_xor,a,b);
+ xnor (f_xnor,a,b);
+ endmodule
 
 
 **RTL realization**
 
 **Output:**
+![output for ex no  02 (de)](https://github.com/user-attachments/assets/367ecf4c-d7b3-48f2-aab2-52953fdb9ac3)
 
 **RTL**
 
 **Timing Diagram**
+![output2 for ex no  02 (de)](https://github.com/user-attachments/assets/d32ba71c-0277-4a8b-ab86-cc5da20fbe4f)
 
 **Result:**
 
