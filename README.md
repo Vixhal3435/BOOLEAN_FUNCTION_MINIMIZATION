@@ -18,6 +18,14 @@ Hardware – PCs, Cyclone II , USB flasher
 
 **Logic Diagram**
 
+
+FUNCTION 1 K-MAP
+![Screenshot 2024-12-09 094037](https://github.com/user-attachments/assets/da998af2-a2dd-4ffa-82b4-913a630c629e)
+FUNCTION 2 K-MAP
+![Screenshot 2024-12-09 094052](https://github.com/user-attachments/assets/e7e01572-3655-4ab9-b097-5436277d6475)
+
+
+
 **Procedure**
 
 1.	Type the program in Quartus software.
@@ -35,20 +43,30 @@ Hardware – PCs, Cyclone II , USB flasher
 
 /* Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
 
-``` module boolean (f_and,f_or,f_nor,f_not,f_nand,f_xor,f_xnor,a,b);
- input a,b;
- output f_and,f_or,f_nor,f_not,f_nand,f_xor,f_xnor;
- and (f_and,a,b);
- or (f_or,a,b);
- not (f_not,a);
- nor (f_nor,a,b);
- nand (f_nand,a,b);
- xor (f_xor,a,b);
- xnor (f_xnor,a,b);
- endmodule
 ```
+FUNCTION 1
+module funct1(a,b,c,d,f1);
+input a,b,c,d;
+output f1;
+assign f1=((~b & ~d)|(~a & b & d)|(a & b & ~c));
+endmodule
+FUNCTION 2
+module funct2(w,x,y,z,f2);
+input w,x,y,z;
+output f2;
+assign f2=((~y & z)|( w & y )|(x & y));
+endmodule
+
+```
+FUNCTION 1
+![Screenshot 2024-12-09 194454](https://github.com/user-attachments/assets/4a237f5e-f34c-461f-b8d4-5efd581c0ed8)
+FUNCTION 2
+![Screenshot 2024-12-09 194506](https://github.com/user-attachments/assets/5f43c8a2-2611-4c67-acaa-6458b552b618)
+
+
 
 Developed by: VISHAL.V
+
 RegisterNumber:24900179
 
 
@@ -56,12 +74,22 @@ RegisterNumber:24900179
 **RTL realization**
 
 **Output:**
-![output for ex no  02 (de)](https://github.com/user-attachments/assets/367ecf4c-d7b3-48f2-aab2-52953fdb9ac3).
 
 **RTL**
 
+FUNCTION 1
+![Screenshot 2024-12-09 194731](https://github.com/user-attachments/assets/de6faaa5-0ed6-46b4-8075-5c566cbd92b2)
+
+FUNCTION 2
+![Screenshot 2024-12-09 194738](https://github.com/user-attachments/assets/f2c8ef25-aa45-4d58-ba30-2dc9f5accf1e)
+
+
 **Timing Diagram**
-![output2 for ex no  02 (de)](https://github.com/user-attachments/assets/d32ba71c-0277-4a8b-ab86-cc5da20fbe4f).
+FUNCTION 1
+![Screenshot 2024-12-09 194752](https://github.com/user-attachments/assets/efb0a97c-9f1f-4c8d-b9f5-32796a96e8ef)
+
+FUNCTION 2
+![Screenshot 2024-12-09 194800](https://github.com/user-attachments/assets/0da304f1-9d6d-4b3b-b566-aadfd32df825)
 
 **Result:**
 
