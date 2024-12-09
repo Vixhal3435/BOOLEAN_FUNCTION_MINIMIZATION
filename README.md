@@ -19,9 +19,15 @@ Hardware – PCs, Cyclone II , USB flasher
 **Logic Diagram**
 
 
-FUNCTION 1 K-MAP
+  FUNCTION 1 K-MAP
+
+
 ![Screenshot 2024-12-09 094037](https://github.com/user-attachments/assets/da998af2-a2dd-4ffa-82b4-913a630c629e)
-FUNCTION 2 K-MAP
+
+
+  FUNCTION 2 K-MAP
+
+
 ![Screenshot 2024-12-09 094052](https://github.com/user-attachments/assets/e7e01572-3655-4ab9-b097-5436277d6475)
 
 
@@ -58,9 +64,17 @@ assign f2=((~y & z)|( w & y )|(x & y));
 endmodule
 
 ```
-FUNCTION 1
+
+
+   FUNCTION 1
+
+
 ![Screenshot 2024-12-09 194454](https://github.com/user-attachments/assets/4a237f5e-f34c-461f-b8d4-5efd581c0ed8)
-FUNCTION 2
+
+
+   FUNCTION 2
+
+
 ![Screenshot 2024-12-09 194506](https://github.com/user-attachments/assets/5f43c8a2-2611-4c67-acaa-6458b552b618)
 
 
@@ -77,18 +91,35 @@ RegisterNumber:24900179
 
 **RTL**
 
+
+
 FUNCTION 1
+
+
 ![Screenshot 2024-12-09 194731](https://github.com/user-attachments/assets/de6faaa5-0ed6-46b4-8075-5c566cbd92b2)
 
+
+
 FUNCTION 2
+
+
 ![Screenshot 2024-12-09 194738](https://github.com/user-attachments/assets/f2c8ef25-aa45-4d58-ba30-2dc9f5accf1e)
 
 
 **Timing Diagram**
+
+
+
 FUNCTION 1
+
+
 ![Screenshot 2024-12-09 194752](https://github.com/user-attachments/assets/efb0a97c-9f1f-4c8d-b9f5-32796a96e8ef)
 
+
+
 FUNCTION 2
+
+
 ![Screenshot 2024-12-09 194800](https://github.com/user-attachments/assets/0da304f1-9d6d-4b3b-b566-aadfd32df825)
 
 **Result:**
